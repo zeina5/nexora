@@ -87,7 +87,7 @@ export function HeroSection() {
           <motion.div variants={fadeUpVariants}>
             <Group justify="center" gap="md" mt="sm">
               <GradientButton
-                component="a"
+   
                 href="#"
                 rightSection={<ArrowRight size={17} />}
               >
