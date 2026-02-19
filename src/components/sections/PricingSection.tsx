@@ -108,7 +108,7 @@ export function PricingSection() {
           </motion.div>
         </Stack>
 
-        <SimpleGrid cols={{ base: 1, md: 3 }} spacing="lg" align="stretch">
+        <SimpleGrid cols={{ base: 1, md: 3 }} spacing="lg" >
           {planKeys.map((key, index) => {
             const isGrowth = key === "growth";
             const isEnterprise = key === "enterprise";
