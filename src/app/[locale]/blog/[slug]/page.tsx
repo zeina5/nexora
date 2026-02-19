@@ -37,16 +37,19 @@ export default async function BlogPostPage({ params: { locale, slug } }: PagePro
         <Container size="md" py="4xl" pt="6xl">
           {/* Back link */}
           <Box mb="xl">
-            <Group
-              component={Link}
+            <Link
               href={`/${locale}/blog`}
-              gap={6}
-              c="dimmed"
-              style={{ textDecoration: "none", display: "inline-flex" }}
+              style={{
+                textDecoration: "none",
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 6,
+                color: "var(--mantine-color-dimmed)",
+              }}
             >
               <ArrowLeft size={15} />
               <Text fz="sm">{t("backToBlog")}</Text>
-            </Group>
+            </Link>
           </Box>
 
           {/* Post header */}
@@ -96,9 +99,10 @@ export default async function BlogPostPage({ params: { locale, slug } }: PagePro
             <Stack gap="xl">
               <Text fz="md" lh={1.9}>
                 This is where your MDX blog content would render. In a production setup, you would
-                co-locate <code>.mdx</code> files inside <code>content/blog/[locale]/[slug].mdx</code>{" "}
-                and use <code>next-mdx-remote</code> or the built-in <code>@next/mdx</code> loader to
-                compile and render them as React components.
+                co-locate <code>.mdx</code> files inside{" "}
+                <code>content/blog/[locale]/[slug].mdx</code> and use <code>next-mdx-remote</code>{" "}
+                or the built-in <code>@next/mdx</code> loader to compile and render them as React
+                components.
               </Text>
 
               <Box
@@ -109,7 +113,14 @@ export default async function BlogPostPage({ params: { locale, slug } }: PagePro
                   border: "1px solid rgba(99,102,241,0.2)",
                 }}
               >
-                <Text fz="sm" c="dimmed" mb="xs" fw={600} tt="uppercase" style={{ letterSpacing: "0.06em" }}>
+                <Text
+                  fz="sm"
+                  c="dimmed"
+                  mb="xs"
+                  fw={600}
+                  tt="uppercase"
+                  style={{ letterSpacing: "0.06em" }}
+                >
                   Example MDX frontmatter
                 </Text>
                 <Box
