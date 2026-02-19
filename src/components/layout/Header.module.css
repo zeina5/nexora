@@ -1,0 +1,51 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  height: rem(64px);
+  transition: background 0.3s ease, border-color 0.3s ease, backdrop-filter 0.3s ease, box-shadow 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.scrolled {
+  background: light-dark(rgba(255, 255, 255, 0.85), rgba(10, 10, 20, 0.85));
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-color: light-dark(rgba(0, 0, 0, 0.08), rgba(255, 255, 255, 0.06));
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: rem(10px);
+  text-decoration: none;
+  color: inherit;
+}
+
+.logoMark {
+  width: 28px;
+  height: 28px;
+  background: linear-gradient(135deg, #6366f1 0%, #06b6d4 100%);
+  border-radius: 8px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.logoMark::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+}
+
+.navLink {
+  font-size: rem(14px) !important;
+}

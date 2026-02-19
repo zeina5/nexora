@@ -1,0 +1,48 @@
+{
+  "name": "nexora",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "format": "prettier --write .",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@mantine/core": "^7.11.2",
+    "@mantine/hooks": "^7.11.2",
+    "@mantine/notifications": "^7.11.2",
+    "@mantine/carousel": "^7.11.2",
+    "@mantine/code-highlight": "^7.11.2",
+    "next-intl": "^3.17.2",
+    "framer-motion": "^11.3.19",
+    "next-themes": "^0.3.0",
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.2.5",
+    "rehype-highlight": "^7.0.0",
+    "remark-gfm": "^4.0.0",
+    "recharts": "^2.12.7",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.417.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/mdx": "^2.0.13",
+    "typescript": "^5",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "prettier": "^3.3.3",
+    "postcss": "^8",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1"
+  }
+}

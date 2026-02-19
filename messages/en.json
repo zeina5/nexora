@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "product": "Product",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "demo": "Live Demo",
+    "signIn": "Sign In",
+    "getStarted": "Get Started Free"
+  },
+  "hero": {
+    "badge": "Now in Public Beta",
+    "headline": "Intelligence That\nMoves at the Speed\nof Your Business",
+    "subheadline": "Nexora unifies your data streams into a single predictive intelligence layer — so your team spends less time analyzing and more time acting.",
+    "cta": "Start for Free",
+    "ctaSecondary": "Watch Demo",
+    "trustedBy": "Trusted by teams at"
+  },
+  "features": {
+    "badge": "Platform Features",
+    "headline": "Everything your analytics stack needs",
+    "subheadline": "Built for modern data teams who need speed, accuracy, and confidence at every decision point.",
+    "items": {
+      "realtime": {
+        "title": "Real-Time Intelligence",
+        "description": "Process millions of events per second with sub-50ms latency. Your dashboards update as fast as your users act."
+      },
+      "prediction": {
+        "title": "Predictive Modeling",
+        "description": "Leverage pre-trained ML models that learn from your data patterns and surface actionable forecasts automatically."
+      },
+      "collaboration": {
+        "title": "Team Collaboration",
+        "description": "Shared workspaces, version-controlled queries, and granular permissions built for cross-functional data teams."
+      },
+      "integrations": {
+        "title": "200+ Integrations",
+        "description": "Connect your existing stack in minutes. Native connectors for Snowflake, Databricks, BigQuery, Kafka, and more."
+      },
+      "security": {
+        "title": "Enterprise Security",
+        "description": "SOC 2 Type II certified. End-to-end encryption, SSO, SCIM provisioning, and full audit logs included."
+      },
+      "api": {
+        "title": "Developer-First API",
+        "description": "RESTful and GraphQL APIs with SDKs for every major language. Embed Nexora intelligence into any product."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Simple Pricing",
+    "headline": "Start free, scale without limits",
+    "subheadline": "No hidden fees. No complex tiers. Choose the plan that fits your team today.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "save": "Save 20%",
+    "popular": "Most Popular",
+    "cta": "Get Started",
+    "ctaEnterprise": "Contact Sales",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "$0",
+        "period": "/month",
+        "description": "Perfect for indie hackers and small projects.",
+        "features": [
+          "Up to 1M events/month",
+          "3 dashboards",
+          "7-day data retention",
+          "Community support",
+          "REST API access"
+        ]
+      },
+      "growth": {
+        "name": "Growth",
+        "price": "$79",
+        "period": "/month",
+        "description": "For growing teams that need more power and support.",
+        "features": [
+          "Up to 50M events/month",
+          "Unlimited dashboards",
+          "90-day data retention",
+          "Priority email support",
+          "Predictive models",
+          "Team collaboration",
+          "Custom alerts"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Custom",
+        "period": "",
+        "description": "For large organizations with complex requirements.",
+        "features": [
+          "Unlimited events",
+          "Unlimited retention",
+          "Dedicated infrastructure",
+          "SLA guarantee",
+          "SSO + SCIM",
+          "Custom integrations",
+          "Dedicated CSM"
+        ]
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Customer Stories",
+    "headline": "Loved by data teams worldwide",
+    "items": [
+      {
+        "quote": "Nexora replaced three separate tools we were using. The predictive layer alone saved us 40 hours of analyst time every week.",
+        "author": "Sarah Chen",
+        "role": "Head of Data, Vercel",
+        "avatar": "SC"
+      },
+      {
+        "quote": "The RTL support and Arabic localization made Nexora the only platform we could actually deploy for our MENA customers.",
+        "author": "Omar Al-Rashid",
+        "role": "CTO, TakafulTech",
+        "avatar": "OR"
+      },
+      {
+        "quote": "We went from 2-day report cycles to real-time dashboards in under a week. The onboarding is exceptional.",
+        "author": "Marcus Webb",
+        "role": "VP Engineering, Stripe",
+        "avatar": "MW"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Ready to move at the speed of your data?",
+    "subheadline": "Join thousands of teams already using Nexora to make faster, smarter decisions.",
+    "primary": "Start for Free — No card required",
+    "secondary": "Schedule a Demo"
+  },
+  "demo": {
+    "title": "Live Analytics Dashboard",
+    "subtitle": "Experience Nexora's intelligence layer in real-time",
+    "revenue": "Total Revenue",
+    "users": "Active Users",
+    "conversion": "Conversion Rate",
+    "latency": "Avg Latency",
+    "revenueChart": "Revenue Overview",
+    "eventsChart": "Event Stream",
+    "topSources": "Top Traffic Sources",
+    "recentAlerts": "Recent Alerts"
+  },
+  "blog": {
+    "title": "Nexora Blog",
+    "subtitle": "Insights on data intelligence, analytics engineering, and building at scale.",
+    "readMore": "Read Article",
+    "minRead": "min read",
+    "backToBlog": "Back to Blog"
+  },
+  "footer": {
+    "tagline": "The intelligence layer for modern data teams.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "links": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "demo": "Live Demo",
+      "changelog": "Changelog",
+      "about": "About",
+      "blog": "Blog",
+      "careers": "Careers",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "security": "Security"
+    },
+    "copyright": "© 2024 Nexora, Inc. All rights reserved."
+  },
+  "404": {
+    "code": "404",
+    "title": "Signal Lost",
+    "description": "This data stream doesn't exist — or it was moved to another dimension of the dashboard.",
+    "cta": "Back to Mission Control"
+  }
+}
